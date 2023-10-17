@@ -7,6 +7,7 @@ require (
 	github.com/koykov/halvector v1.0.4
 	github.com/koykov/jsonvector v1.2.1
 	github.com/koykov/urlvector v1.1.5
+	github.com/koykov/vector v1.2.3
 	github.com/koykov/xmlvector v1.0.1
 	github.com/koykov/yamlvector v0.0.0-20231014193552-a17ee5bb36b4
 )
@@ -24,8 +25,6 @@ require (
 	github.com/koykov/i18n v1.0.3 // indirect
 	github.com/koykov/indirect v1.0.0 // indirect
 	github.com/koykov/inspector v1.4.4 // indirect
-	github.com/koykov/vector v1.2.3 // indirect
-	github.com/koykov/vector_inspector v1.0.4 // indirect
 	github.com/koykov/x2bytes v1.0.1 // indirect
 	golang.org/x/sys v0.10.0 // indirect
 	golang.org/x/tools v0.11.1 // indirect
