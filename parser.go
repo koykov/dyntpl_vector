@@ -86,6 +86,12 @@ func parse(fmt_ fmt_, ctx *dyntpl.Ctx, buf *any, val any, args []any) error {
 	if err = vec.Parse(data); err != nil {
 		return err
 	}
+
+	if fmt_ == fmtURL {
+		// Parse URL query by default.
+		vec.(*urlvector.Vector).Query()
+	}
+
 	*buf = vec.Root()
 
 	return nil
