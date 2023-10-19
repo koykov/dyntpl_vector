@@ -1,6 +1,7 @@
 package vector_inspector
 
 import (
+	"bytes"
 	"testing"
 
 	"github.com/koykov/dyntpl"
@@ -105,6 +106,62 @@ func TestParser(t *testing.T) {
 		}
 		if string(r) != "zh-Hant-cn;q=1" {
 			t.FailNow()
+		}
+	})
+}
+
+func BenchmarkParser(b *testing.B) {
+	if err := init_(); err != nil {
+		b.Error(err)
+		return
+	}
+	b.Run("json", func(b *testing.B) {
+		b.ReportAllocs()
+		var buf bytes.Buffer
+		for i := 0; i < b.N; i++ {
+			ctx := dyntpl.AcquireCtx()
+			ctx.SetString("source", json_)
+			_ = dyntpl.Write(&buf, "json", ctx)
+			dyntpl.ReleaseCtx(ctx)
+			buf.Reset()
+		}
+	})
+	b.Run("xml", func(b *testing.B) {
+		b.ReportAllocs()
+		var buf bytes.Buffer
+		for i := 0; i < b.N; i++ {
+			ctx := dyntpl.AcquireCtx()
+			ctx.SetString("source", xml_)
+			_ = dyntpl.Write(&buf, "xml", ctx)
+			dyntpl.ReleaseCtx(ctx)
+			buf.Reset()
+		}
+	})
+	b.Run("yaml", func(b *testing.B) {
+		b.ReportAllocs()
+		// todo implement me
+		_ = yaml_
+	})
+	b.Run("url", func(b *testing.B) {
+		b.ReportAllocs()
+		var buf bytes.Buffer
+		for i := 0; i < b.N; i++ {
+			ctx := dyntpl.AcquireCtx()
+			ctx.SetString("source", url_)
+			_ = dyntpl.Write(&buf, "url", ctx)
+			dyntpl.ReleaseCtx(ctx)
+			buf.Reset()
+		}
+	})
+	b.Run("hal", func(b *testing.B) {
+		b.ReportAllocs()
+		var buf bytes.Buffer
+		for i := 0; i < b.N; i++ {
+			ctx := dyntpl.AcquireCtx()
+			ctx.SetString("source", hal_)
+			_ = dyntpl.Write(&buf, "hal", ctx)
+			dyntpl.ReleaseCtx(ctx)
+			buf.Reset()
 		}
 	})
 }
