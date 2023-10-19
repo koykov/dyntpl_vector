@@ -8,6 +8,7 @@ require (
 	github.com/koykov/jsonvector v1.2.1
 	github.com/koykov/urlvector v1.1.5
 	github.com/koykov/vector v1.2.3
+	github.com/koykov/vector_inspector v1.0.4
 	github.com/koykov/xmlvector v1.0.1
 	github.com/koykov/yamlvector v0.0.0-20231014193552-a17ee5bb36b4
 )

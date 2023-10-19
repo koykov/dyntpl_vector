@@ -32,6 +32,8 @@ github.com/koykov/urlvector v1.1.5 h1:4oXBXQhzcYIbB0vK8V1RU0oK1W97Zr0E86YSE03t/A
 github.com/koykov/urlvector v1.1.5/go.mod h1:3VUeUDJCnDa8wDx4E4LLgAaXtBvDxNsaQUGf2UdfFU4=
 github.com/koykov/vector v1.2.3 h1:dq8r9A4VQUnH6q2w8y1nEFxg3fK6bEnGOUR722AHABs=
 github.com/koykov/vector v1.2.3/go.mod h1:taIaBTVvLApbghwTnYu71CQLGLV9i2OhAo48JIr+OJI=
+github.com/koykov/vector_inspector v1.0.4 h1:/y13cgVwwFP/pNbBbCaijHnNdoRrns3wOzO1mZsZEFk=
+github.com/koykov/vector_inspector v1.0.4/go.mod h1:hW8O83FrERVP0y7orD4LvWONNvyzlBtr1djPgPVyjAE=
 github.com/koykov/x2bytes v1.0.1 h1:kfo9Pqmip+6s6zbQYgeNSgOA3UbyQNVmaCzkMrJdTME=
 github.com/koykov/x2bytes v1.0.1/go.mod h1:5VHo/Vc0NsGBvzwg5wMrCNrI+fL+DbSUgFW4FVRzlzs=
 github.com/koykov/xmlvector v1.0.1 h1:XQteAHGIVXHNkAUOBl7QK8PTYE3czEAIEt9WhBIS+VY=
