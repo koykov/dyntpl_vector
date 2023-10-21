@@ -1,0 +1,1 @@
+root:{"x":{"y":{"z":"foobar"}}};nested0:{"y":{"z":"foobar"}};nested1:{"z":"foobar"};nested2:"foobar".

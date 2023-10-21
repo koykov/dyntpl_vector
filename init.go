@@ -16,4 +16,5 @@ func init() {
 	dyntpl.RegisterModFnNS("vector", "parseHAL", "", modParseHAL)
 
 	dyntpl.RegisterModFnNS("vector", "coalesce", "", modCoalesce)
+	dyntpl.RegisterModFnNS("vector", "marshal", "serialize", modMarshal)
 }
