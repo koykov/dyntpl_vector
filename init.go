@@ -17,4 +17,6 @@ func init() {
 
 	dyntpl.RegisterModFnNS("vector", "coalesce", "", modCoalesce)
 	dyntpl.RegisterModFnNS("vector", "marshal", "serialize", modMarshal)
+
+	dyntpl.RegisterEmptyCheckFnNS("vector", "node", VectorNodeEmptyCheck)
 }
