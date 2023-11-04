@@ -6,10 +6,10 @@ require (
 	github.com/koykov/bytebuf v1.0.4
 	github.com/koykov/dyntpl v1.1.6
 	github.com/koykov/halvector v1.0.5
-	github.com/koykov/jsonvector v1.2.3-0.20231021212923-2224e619e201
+	github.com/koykov/jsonvector v1.2.2
 	github.com/koykov/urlvector v1.1.6
 	github.com/koykov/vector v1.2.4
-	github.com/koykov/vector_inspector v1.0.4
+	github.com/koykov/vector_inspector v1.0.5
 	github.com/koykov/xmlvector v1.0.2
 	github.com/koykov/yamlvector v0.0.0-20231021203106-95144bffe259
 )
