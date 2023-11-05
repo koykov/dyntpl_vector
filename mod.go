@@ -40,9 +40,18 @@ func modCoalesce(ctx *dyntpl.Ctx, buf *any, val any, args []any) error {
 	return nil
 }
 
-func modMarshal(ctx *dyntpl.Ctx, buf *any, val any, _ []any) error {
+func modMarshal(ctx *dyntpl.Ctx, buf *any, val any, args []any) error {
 	var root *vector.Node
-	switch x := val.(type) {
+	var src any
+	if val != nil {
+		src = val
+	} else if len(args) > 0 {
+		src = args[0]
+	}
+	if src == nil {
+		return nil
+	}
+	switch x := src.(type) {
 	case vector.Interface:
 		root = x.Root()
 	case *vector.Node:

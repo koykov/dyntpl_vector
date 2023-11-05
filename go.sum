@@ -26,8 +26,8 @@ github.com/koykov/indirect v1.0.0 h1:3kog1xvVUEB2142K2/AZRhnOKN2N8KNahHHkE+KT7ec
 github.com/koykov/indirect v1.0.0/go.mod h1:2qWC0hrIHIexlKaqPA0VWEa0s2V/qxxNJv7XPncnh2I=
 github.com/koykov/inspector v1.4.4 h1:mzNQsg96zyqGS/zmVyy9Abzz1U+ZVpw5v1hGbhZ2l2M=
 github.com/koykov/inspector v1.4.4/go.mod h1:w047/qShAV7uuaICjJ6QeCpPNeCsK7gPPtyXnWFhj8A=
-github.com/koykov/jsonvector v1.2.2 h1:q764JekxpFh8m/mRe/9vuh/S0eTjyCdGUKywNP9cMXU=
-github.com/koykov/jsonvector v1.2.2/go.mod h1:Wzli47+lXMuT+qmPQWynkiKgC1MEo5FolXHavsxZX9Y=
+github.com/koykov/jsonvector v1.2.3-0.20231021212923-2224e619e201 h1:q5mvIy3/pfJMehGBbXgDl50yfGiJMX0bp5H8sMswsuA=
+github.com/koykov/jsonvector v1.2.3-0.20231021212923-2224e619e201/go.mod h1:Wzli47+lXMuT+qmPQWynkiKgC1MEo5FolXHavsxZX9Y=
 github.com/koykov/urlvector v1.1.6 h1:BJpYPTm6GkpvAG9j69o6mQh/9OzXga6eXZ791W6IuYU=
 github.com/koykov/urlvector v1.1.6/go.mod h1:5Oi56Get0QGrXb/TIwFEFhEw0igxq1HeSzs1m+rdcoQ=
 github.com/koykov/vector v1.2.4 h1:1z4DYA3ek16VO83Ogv4TmGWj13RPRtvPlnRF3Gnfkrs=
