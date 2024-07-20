@@ -3,9 +3,9 @@ module github.com/koykov/dyntpl_vector
 go 1.18
 
 require (
-	github.com/koykov/dyntpl v1.1.8
+	github.com/koykov/dyntpl v1.1.9
 	github.com/koykov/halvector v1.0.7
-	github.com/koykov/jsonvector v1.2.4
+	github.com/koykov/jsonvector v1.2.5
 	github.com/koykov/urlvector v1.1.9
 	github.com/koykov/vector v1.2.6
 	github.com/koykov/vector_inspector v1.0.6
